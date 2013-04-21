@@ -6,12 +6,53 @@ body {
     padding: 10px 35px 70px 35px;
 }
 
+#page-content {
+    padding-top: 60px
+}
+
 #logo {
     margin: 60px -30px 0px 0px;
 }
 
 #alpha-img {
     margin-right:20px;
+}
+
+.space-div {
+    height:35px;
+}
+
+.main-bar {
+    margin-left: 15px;
+}
+
+.nav-list > li:first-child > a {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.nav-list > li > a {
+    padding: 10px;
+    border-color:#EDEDF3;
+    border-style:solid;
+    border-width:1px 1px 0px 1px;
+}
+
+.nav-list > li:last-child > a {
+    border-radius: 0px 0px 5px 5px;
+    border-width:1px 1px 1px 1px;
+}
+
+.nav-list .icon-chevron-right {
+    float: right;
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 90px;
 }
 
 .copyright {
