@@ -1,6 +1,37 @@
+body {
+    height: 100%;
+}
+
+#content {
+    padding: 10px 40px 70px 40px;
+}
+
+#logo {
+    margin: 40px 0px 0px 0px;
+}
+
+.copyright {
+    margin-top:7px;
+}
+
+.fg-logo-text-color {
+    color: #1212ff;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.bg-white {
+    background-color:#fff;
+}
+
+.bg-blue {
+    background-color:#3399FF;
+}
+
 .hero-unit {
     margin-top:60px;
-    background-color:#FFF;
 }
 
 .hero-unit h1 {

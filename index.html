@@ -7,51 +7,79 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/style.css" rel="stylesheet">
     </head>
-    <body>
+    <body class='bg-blue'>
+        <!-- begin whole page container -->
+        <div id='content' class="container bg-white rounded">
 
-        <!-- Navbar -->
-        <div class="navbar navbar-fixed-top navbar-inverse">
-            <div class="navbar-inner">
-                <div class="container">
-                    <ul class="nav">
-                        <li>
-                            <a class="brand" href="#">Alpha Recycles</a>
-                        </li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+            <!-- begin Navbar -->
+            <div class="navbar navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <ul class="nav">
+                            <li>
+                                <a class="brand" href="index.html">Alpha Recycles</a>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li class='dropdown'>
+                                <a href="#" class="dropdown-toggle" data-toggle='dropdown'>
+                                Services <b class='caret'></b>
+                                </a>
+                                <ul class='dropdown-menu pull-right'>
+                                    <li><a href="#">Roll-Off Containers</a></li>
+                                    <li><a href="#">One-Time Pickup</a></li>
+                                    <li><a href="#">Foreclosures Clean-up</a></li>
+                                    <li><a href="#">Resource Recovery</a></li>
+                                    <li><a href="#">Cardboard & Metal Recycling</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end Navbar -->
+            
+            <!-- begin headline/jumbotron -->
+            <div class="hero-unit bg-white">
+                <div id='logo' class="text-center pull-right fg-logo-text-color">
+                    <img src='img\alpha.gif' width=403px height=64px></img>
+                    <p id='tagline'>Container Services & Recycling.</p>
+                </div>
+                <div id='alpha-img' class="text-center">
+                    <img src='img\building.jpg' class='rounded' width=384px height=225px></img>
+                </div>
+            </div>
+            <!-- end headline/jumbotron -->
+
+            <div class="container">
+                <div class=row>
+                    <div class="span4">
+                        Locally family owned and operated serving the Twin Cities Metro area since 1986. 
+                        Alpha Container Services & Recycling is a roll-off container service providing 
+                        innovative "Green" waste diversion solutions for construction and residential customers.
+                    </div>
+
+                    <div class="span4">
+                        Locally family owned and operated serving the Twin Cities Metro area since 1986. 
+                        Alpha Container Services & Recycling is a roll-off container service providing 
+                        innovative "Green" waste diversion solutions for construction and residential customers.
+                    </div>
+                </div>
+
+            </div>
+
+        </div> <!--end whole page container-->
+        
+
+        <!-- begin footer-->
+        <div class="navbar navbar-fixed-bottom">
+            <div class='navbar-inner'>
+                <div class='container'>
+                    <p class='muted copyright'>&copy; 2013 Alpha Container Services</p>
                 </div>
             </div>
         </div>
-        <!-- end Navbar -->
-
-        <!-- Jumbotron -->
-        <div class="container hero-unit">
-            <div class="text-center">
-                <h1>Alpha</h1>
-                <p>Container Services & Recycling.</p>
-            </div>
-        </div>
-        <!-- end Jumbotron -->
-
-        <div class="container">
-            <div class=row>
-                <div class="span4">
-                    Locally family owned and operated serving the Twin Cities Metro area since 1986. 
-                    Alpha Container Services & Recycling is a roll-off container service providing 
-                    innovative "Green" waste diversion solutions for construction and residential customers.
-                </div>
-
-                <div class="span4">
-                    Locally family owned and operated serving the Twin Cities Metro area since 1986. 
-                    Alpha Container Services & Recycling is a roll-off container service providing 
-                    innovative "Green" waste diversion solutions for construction and residential customers.
-                </div>
-            </div>
-
-        </div>
-
+        <!-- end footer -->
 
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
