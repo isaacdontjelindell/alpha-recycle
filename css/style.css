@@ -26,6 +26,10 @@ body {
     margin-left: 15px;
 }
 
+.main-bar > section:first-child {
+    padding-top:20px;
+}
+
 .main-bar > section {
     padding-top:30px;
 }
