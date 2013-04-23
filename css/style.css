@@ -75,6 +75,10 @@ body {
     border-radius: 5px;
 }
 
+.img-margins {
+    margin:0px 10px;
+}
+
 .bg-white {
     background-color:#fff;
 }

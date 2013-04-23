@@ -6,6 +6,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
     </head>
     <body data-spy='scroll' data-target='.sidebar' class='bg-blue'>
         <!-- begin whole page container -->
@@ -96,6 +97,9 @@
                                     Our containers/dumpsters are easy to load with easy access. We will 
                                     provide a container that fits your specific job.
                                 </p>
+                                    <a class="fancybox pull-right" rel="group" href="img/box_sizes.jpg">
+                                        <img src='img/box_sizes.jpg' class='img-margins rounded' title='Click to expand' width=200px>
+                                   </a>
                                 <ul>
                                     <li>
                                         <b>10 cubic yard</b> container/dumpster fits in a single car stall parking 
@@ -113,6 +117,7 @@
                                         is approximately 22 feet long 8 feet wide and 5 to 6 feet high.
                                     </li>
                                 </ul>
+
                             </section>
 
                             <div class='space-div'></div>
@@ -195,5 +200,11 @@
 
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox();
+            });
+       </script>
     </body>
 </html>
