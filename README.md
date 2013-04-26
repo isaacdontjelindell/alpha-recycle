@@ -7,4 +7,5 @@ alpha-recycle
 - about page
 - contact/email form?
 - add copy
+- update "x years of dedicated service"
 

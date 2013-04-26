@@ -2,6 +2,10 @@ body {
     height: 100%;
 }
 
+section {
+    overflow:auto;
+}
+
 #content {
     padding: 10px 35px 70px 35px;
 }
@@ -54,6 +58,7 @@ body {
     opacity: .25;
 }
 
+
 .fixed-top {
     position: fixed;
     top: 90px;
@@ -61,6 +66,10 @@ body {
 
 .copyright {
     margin-top:7px;
+}
+
+.staff {
+    margin-bottom:40px;
 }
 
 .fg-logo-text-color {
@@ -73,6 +82,14 @@ body {
 
 .img-margins {
     margin:0px 10px;
+}
+
+.img-margins-bottom  {
+    margin-bottom:10px;
+}
+
+.li-margins {
+    margin-bottom:10px;
 }
 
 .bg-white {
@@ -97,3 +114,9 @@ body {
     margin-top:15px;
     font-size:22px;
 }
+
+.column {
+    width:50%;
+    float:left;
+}
+
