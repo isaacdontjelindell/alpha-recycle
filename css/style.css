@@ -35,10 +35,12 @@ section {
 }
 
 .nav-list > li:first-child > a {
+    min-width: 200px;
     border-radius: 5px 5px 0px 0px;
 }
 
 .nav-list > li > a {
+    min-width: 200px;
     padding: 10px;
     border-color:#EDEDF3;
     border-style:solid;
@@ -46,6 +48,7 @@ section {
 }
 
 .nav-list > li:last-child > a {
+    min-width: 200px;
     border-radius: 0px 0px 5px 5px;
     border-width:1px 1px 1px 1px;
 }
