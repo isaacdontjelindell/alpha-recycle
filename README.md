@@ -3,10 +3,11 @@ alpha-recycle
 
 ####TODO####
 - ~~small images for thumbnails~~
-- contact page
+- ~~contact page~~
 - ~~about page~~
 - contact/email form?
 - add copy
 - update "x years of dedicated service"
 - update about:resource recovery:about recovered
+- Javascript copyright injection
 - ~~hover dropdowns~~
