@@ -32,6 +32,10 @@ section {
     width:500px;
 }
 
+.fancybox > img {
+    width:200px;
+}
+
 .space-div {
     height:15px;
 }
