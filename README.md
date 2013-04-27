@@ -5,7 +5,7 @@ alpha-recycle
 - ~~small images for thumbnails~~
 - ~~contact page~~
 - ~~about page~~
-- contact/email form?
+- troubleshoot squaresend - emails not being recieved
 - add copy
 - update "x years of dedicated service"
 - update about:resource recovery:about recovered
