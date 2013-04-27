@@ -34,6 +34,14 @@ section {
     padding-top:30px;
 }
 
+.muted > a {
+    color: #999;
+    text-decoration: underline;
+}
+
+.navbar .brand {
+    float: right;
+}
 
 .nav-list > li:first-child > a {
     min-width: 200px;

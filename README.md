@@ -8,4 +8,5 @@ alpha-recycle
 - contact/email form?
 - add copy
 - update "x years of dedicated service"
+- update about:resource recovery:about recovered
 - ~~hover dropdowns~~
