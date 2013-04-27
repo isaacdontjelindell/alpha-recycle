@@ -20,8 +20,16 @@ section {
     padding: 0px 10px 0px 0px;
 }
 
+#logo > img {
+    width:410px;
+}
+    
 #alpha-img {
     margin-right:0px;
+}
+
+#alpha-img > img {
+    width:500px;
 }
 
 .space-div {
