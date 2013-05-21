@@ -6,8 +6,11 @@ alpha-recycle
 - ~~contact page~~
 - ~~about page~~
 - troubleshoot squaresend - emails not being recieved
-- add copy
-- update "x years of dedicated service"
+- add light green (lighter than forest) recycling logo between L and P in logo
+- contact info/hours in footer
 - update about:resource recovery:about recovered
 - Javascript copyright injection
 - ~~hover dropdowns~~
+- 
+
+They really like SHamrock site: http://www.shamrockdisposal.com/recycling-transfer.html
