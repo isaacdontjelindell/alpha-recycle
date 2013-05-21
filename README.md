@@ -11,6 +11,5 @@ alpha-recycle
 - update about:resource recovery:about recovered
 - Javascript copyright injection
 - ~~hover dropdowns~~
-- 
 
-They really like SHamrock site: http://www.shamrockdisposal.com/recycling-transfer.html
+They really like the Shamrock site: http://www.shamrockdisposal.com/recycling-transfer.html
