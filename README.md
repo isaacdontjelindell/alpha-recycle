@@ -4,7 +4,7 @@ alpha-recycle
 ####TODO####
 - troubleshoot squaresend - emails not being recieved
 - add light green (lighter than forest) recycling logo between L and P in logo
-- contact info/hours in footer
+- ~~contact info/hours in footer~~
 - delete link to MN Materials Exchange and replace with MNFrugalMarket.com
 - update recovered waste info (see below)
 - add "Request a roll-off container" (basically copy Shamrock's, see below)
