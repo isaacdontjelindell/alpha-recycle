@@ -8,7 +8,6 @@ alpha-recycle
 - ~~delete link to MN Materials Exchange and replace with MNFrugalMarket.com~~
 - update recovered waste info (see below)
 - add "Request a roll-off container" (basically copy Shamrock's, see below)
-- update about:resource recovery:about recovered
 - Javascript copyright injection
 
 They really like the Shamrock site: http://www.shamrockdisposal.com/recycling-transfer.html
