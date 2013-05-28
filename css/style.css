@@ -6,6 +6,9 @@ section {
     overflow:auto;
 }
 
+a {
+    color:#189400;
+}
 
 .navbar-fixed-bottom hr {
     margin: 3px;
@@ -21,7 +24,7 @@ section {
 }
 
 #logo {
-    margin: 120px 114px 0px -20px;
+    margin: 120px 0px 0px 0px;
     padding: 0px 10px 0px 0px;
 }
 
@@ -85,6 +88,10 @@ section {
     border-width:1px 1px 1px 1px;
 }
 
+.nav-list .active > a, .nav-list .active > a:hover { 
+    background-color:#189400;
+}
+
 .nav-list .icon-chevron-right {
     float: right;
     margin-left: 20px;
@@ -136,7 +143,8 @@ section {
 }
 
 .bg-blue {
-    background-color:#3399FF;
+    /*background-color:#3399FF;*/
+    background-color:#EAEBEC;
 }
 
 .bg-green {
@@ -144,7 +152,8 @@ section {
 }
 
 .hero-unit {
-    background-color: rgba(230,230,230,0.5);
+    /*background-color: rgba(230,230,230,1);*/
+    /*background-color: rgba(51,153,255,0.5);*/
     margin-left:auto;
     margin-right:auto;
     margin-top:85px;
@@ -168,8 +177,8 @@ section {
 }
 
 .tons-of-space {
-    padding: 0px 35px;
-    height: 500px;
+    padding: 80px 35px 35px 35px;
+    /*height: 500px;*/
     background-color:#fff;
 }
 
