@@ -139,6 +139,9 @@ section {
     background-color:#3399FF;
 }
 
+.bg-green {
+    color:#189400;
+}
 
 .hero-unit {
     background-color: rgba(230,230,230,0.5);
