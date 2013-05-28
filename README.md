@@ -9,7 +9,7 @@ alpha-recycle
 - ~~update recovered waste info (see below)~~
 - troubleshoot squaresend - emails not being recieved
 - accent more with blue and some light green
-- add "Request a roll-off container" (basically copy Shamrock's, see below)
+- ~~add "Request a roll-off container" (basically copy Shamrock's, see below)~~
 - Javascript copyright injection
 
 They really like the Shamrock site: http://www.shamrockdisposal.com/recycling-transfer.html
