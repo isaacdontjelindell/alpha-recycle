@@ -92,6 +92,10 @@ a {
     background-color:#189400;
 }
 
+.nav-list > li > a:hover {
+    color:#189400;
+}
+
 .nav-list .icon-chevron-right {
     float: right;
     margin-left: 20px;
