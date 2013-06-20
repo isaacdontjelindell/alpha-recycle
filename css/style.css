@@ -10,9 +10,9 @@ a {
     color:#189400;
 }
 
-.navbar-fixed-bottom hr {
+/*.navbar-fixed-bottom hr {
     margin: 3px;
-}
+}*/
 
 #content {
     padding: 20px 35px 50px 35px;
@@ -21,6 +21,10 @@ a {
 
 #page-content {
     padding-top: 60px
+}
+
+.footer {
+    margin-top: 20px;
 }
 
 #logo {
