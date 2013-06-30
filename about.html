@@ -126,45 +126,7 @@
   <!--end whole page container-->
 </div>
 
-
-<!-- begin footer-->
-<div class="footer">
-  <div class="container">
-    <div class='container copyright'>
-      <div class='container'>
-        <b class='muted'>Alpha Container Services</b><br>
-        <a href='request_container.html' class='bg-green  pull-right'><b>Request a roll-off container</b></a>
-
-        <p class='pull-left address muted'>
-          4180 160th Street E.<br>
-          Coates, Minnesota 55068
-        </p>
-
-        <p class='pull-left address muted'>
-          Phone: 651-438-8855<br>
-          Fax: 651-438-8857
-        </p>
-
-        <p class='muted'>
-          Hours:<br>
-          Monday - Friday, 8am - 5pm
-        </p>
-
-      </div>
-      <hr>
-      <div>
-        <p class='muted copyright'>&copy; 2013 Alpha Container Services. All Rights Reserved. &nbsp
-          |&nbsp <a href='index.html'>Home</a>&nbsp
-          |&nbsp <a href='about.html'>About</a>&nbsp
-          |&nbsp <a href='contact.html'>Contact</a>&nbsp
-          |&nbsp <a href='areas_served.html'>Serviced Areas</a>&nbsp
-          |&nbsp <a href='services.html'>Services</a>&nbsp
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- end footer -->
-</div>
+<div id="includedContent"></div> <!-- footer loaded here -->
 
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -174,6 +136,13 @@
     $(".fancybox").fancybox();
   });
 </script>
+
+<script>
+  $(function() {
+    $("#includedContent").load("footer.html");
+  });
+</script>
+
 <script src='js/twitter-bootstrap-hover-dropdown.min.js'></script>
 </body>
 </html>
