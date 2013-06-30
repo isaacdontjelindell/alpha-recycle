@@ -128,6 +128,10 @@ a {
     margin-top: 7px;
 }
 
+.alpha-info {
+    margin-left: 50px;
+}
+
 .copyright {
     text-align: center;
     font-size: 10pt;
@@ -172,6 +176,12 @@ a {
 
 .bg-green {
     color: #189400;
+}
+
+.request-dumpster {
+    text-decoration: none !important;
+    margin-top: 20px;
+    margin-right: 80px;
 }
 
 .hero-unit {
