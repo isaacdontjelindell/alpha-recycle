@@ -11,36 +11,7 @@
 <body data-spy='scroll' data-target='.sidebar' class='bg-blue'>
 <!-- begin whole page container -->
 <div id='content' class="container bg-white rounded">
-
-  <!-- begin Navbar -->
-  <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="index.html">Alpha Container Services & Recycling</a>
-        <ul class="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html#about_us">About</a></li>
-          <li class='active'><a href="#">Contact</a></li>
-          <li><a href="areas_served.html#dakota">Serviced Areas</a></li>
-          <li class='dropdown'>
-            <a href="#" class="dropdown-toggle" data-hover='dropdown' data-toggle='dropdown'>
-              Services <b class='caret'></b>
-            </a>
-            <ul class='dropdown-menu pull-right'>
-              <li><a href="services.html#contractor-services">Contractor Services</a></li>
-              <li><a href="services.html#public-services">Public Services</a></li>
-              <li><a href="services.html#rolloff-services">Roll-Off Services</a></li>
-              <li><a href="services.html#onetime-services">One-time Pickup Services</a></li>
-              <li><a href="services.html#materials-accepted">Materials Accepted</a></li>
-              <li><a href="services.html#peritem-disposal">Per-Item Disposal</a></li>
-              <li><a href="services.html#not-accepted">Materials Not Accepted</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- end Navbar -->
+  <div id="navbar"></div> <!--navbar inserted here -->
 
   <div id='page-content' class='container'>
     <div class='row'>
@@ -102,6 +73,12 @@
 <script>
   $(function() {
     $("#includedContent").load("footer.html");
+    $.ajaxSetup({
+      async: false
+    });
+    $("#navbar").load("navbar.html", function() {
+      $("#contact").addClass("active");
+    });
   });
 </script>
 
