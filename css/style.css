@@ -73,6 +73,7 @@ a {
 
 .navbar .brand {
     float: right;
+    color: #1212ff;
 }
 
 .nav-list > li:first-child > a {
