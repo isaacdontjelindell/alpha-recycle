@@ -222,3 +222,16 @@ a {
     margin-left: 20px;
     margin-top: -15px;
 }
+
+.info-text {
+    font-style: italic;
+    font-size: 13pt;
+}
+
+#logo-phone {
+    color: gray;
+    margin-top: 300px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+}
