@@ -228,6 +228,10 @@ a {
     font-size: 13pt;
 }
 
+.info-text2 {
+    margin-left: -25px;
+}
+
 #logo-phone {
     color: #363636;
     margin-top: 250px;
