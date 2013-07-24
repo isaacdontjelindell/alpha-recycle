@@ -218,11 +218,6 @@ a {
     float: left;
 }
 
-.dumpster-scale {
-    margin-left: 20px;
-    margin-top: -15px;
-}
-
 .info-text {
     font-style: italic;
     font-size: 13pt;
@@ -238,4 +233,8 @@ a {
     font-size: 15pt;
     font-weight: bold;
     font-style: italic;
+}
+
+.dumpster-image {
+    margin-left: 40px;
 }
