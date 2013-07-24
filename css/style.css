@@ -227,6 +227,10 @@ a {
     margin-left: -25px;
 }
 
+.request-text {
+    font-weight: bold;
+}
+
 #logo-phone {
     color: #363636;
     margin-top: 250px;
